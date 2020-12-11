@@ -1,6 +1,7 @@
 Step 5
 $ ssh root@<new.saltmaster.linode.ip>
 
+
 Step 7
 # apt install apt-transport-https -y
 # wget -O - https://repo.saltstack.com/py3/ubuntu/20.04/amd64/3002/SALTSTACK-GPG-KEY.pub | sudo apt-key add -
@@ -11,3 +12,7 @@ Step 7
 
 # apt update
 # apt install salt-minion -y
+
+
+Step 8
+# service salt-minion restart
