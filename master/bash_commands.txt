@@ -32,3 +32,8 @@ Step 11
 # cd saltmaster/
 # mkdir base
 # mkdir services
+
+
+Step 12
+# cd base/
+# vim top.sls
