@@ -34,12 +34,21 @@ Step 11
 # mkdir services
 
 
-Step 12 - (from /home/saltmaster/ directory)
-# cd base/
+Step 12
+# cd /home/saltmaster/base/
 # vim top.sls
 
 
-Step 13 - (from /home/saltmaster/ directory)
+Step 13
+# cd /home/saltmaster/base/
 # mkdir common
 # cd common/
 # vim packages.sls
+
+
+Step 14
+# cd /home/saltmaster/services/
+# mkdir mongodb
+# mkdir postgres
+# cd mongodb/
+# vim init.sls
