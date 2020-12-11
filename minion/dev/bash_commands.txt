@@ -1,5 +1,5 @@
 Step 5
-$ ssh root@<new.saltmaster.linode.ip>
+$ ssh root@<new.saltminiondev.linode.ip>
 
 
 Step 7
