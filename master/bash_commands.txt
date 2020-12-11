@@ -49,6 +49,12 @@ Step 13
 Step 14
 # cd /home/saltmaster/services/
 # mkdir mongodb
-# mkdir postgres
 # cd mongodb/
+# vim init.sls
+
+
+Step 15
+# cd /home/saltmaster/services/
+# mkdir postgres
+# cd postgres
 # vim init.sls
