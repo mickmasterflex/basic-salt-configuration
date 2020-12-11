@@ -24,3 +24,11 @@ Step 9
 Step 10
 # vim /etc/salt/master.d/file_roots.conf
 # service salt-master restart
+
+
+Step 11
+# cd /home/
+# mkdir saltmaster
+# cd saltmaster/
+# mkdir base
+# mkdir services
