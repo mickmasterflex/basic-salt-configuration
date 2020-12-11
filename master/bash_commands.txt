@@ -19,3 +19,8 @@ Step 9
 # salt-key -A '*'
 # salt '*' test.ping
 # salt-key -L
+
+
+Step 10
+# vim /etc/salt/master.d/file_roots.conf
+# service salt-master restart
