@@ -16,3 +16,8 @@ Step 7
 
 Step 8
 # service salt-minion restart
+
+
+Step 16
+# cd /etc/salt/
+# vim grains
