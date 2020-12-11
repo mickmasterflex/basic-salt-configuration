@@ -34,6 +34,12 @@ Step 11
 # mkdir services
 
 
-Step 12
+Step 12 - (from /home/saltmaster/ directory)
 # cd base/
 # vim top.sls
+
+
+Step 13 - (from /home/saltmaster/ directory)
+# mkdir common
+# cd common/
+# vim packages.sls
